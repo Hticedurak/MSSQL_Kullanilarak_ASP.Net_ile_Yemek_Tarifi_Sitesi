@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "UyeKayit";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        .kayit td {
+            color: white;
+        }
+
+        .kayit h1 {
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content1">
+        <div class="kayit">
+            <form action="/kayıt.html">
+                <h1>Üyelik Formu</h1>
+                <table>
+                    <tr>
+                        <td><label for="fname">Adı:</label> </td>
+                        <td><input type="text" id="fname" name="fname" class="kaydol"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Soyadı:</label></td>
+                        <td>  <input type="text" id="lname" name="lname" class="kaydol"> </td>
+                    </tr>
+                    <tr>
+                        <td> E-mail:</td>
+                        <td><input type="email" placeholder="text@textmail.com" class="kaydol"></td>
+                    </tr>
+                    <tr>
+                        <td>Şifre:</td>
+                        <td><input type="password" placeholder="Şifre" class="kaydol"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Kaydet" class="kaydol2" onclick="location.href = '@Url.Action("Anasayfa","Anasayfa")'"></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

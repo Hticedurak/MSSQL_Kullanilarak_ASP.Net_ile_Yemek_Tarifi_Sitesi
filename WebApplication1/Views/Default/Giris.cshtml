@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Giris";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<html>
+<body>
+    <div class="content">
+        <div class="giris">
+            <form action="giris.html">
+                <h1>GİRİŞ</h1>
+                <p>
+                    E-Mail:
+                    <input type="email" placeholder="text@textmail.com" class="sifre">
+                </p>
+                <p>
+                    Şifre:
+                    <input type="password" placeholder="Şifre" class="sifre">
+                </p>
+                <input type="button" value="Giriş" class="giris2" onclick="location.href = '@Url.Action("Anasayfa","Anasayfa")'">
+                
+                <a href="/Default/UyeKayit/">Yeni Hesap Oluştur</a>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

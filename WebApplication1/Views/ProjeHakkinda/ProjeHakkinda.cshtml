@@ -1,0 +1,31 @@
+﻿@using WebApplication1.Models.Sınıflar
+@model List<ProjeHakkinda>
+@{
+    ViewBag.Title = "ProjeHakkinda";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<html>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Proje Hakkında</h2>
+        </div>
+    </div>
+    <div class="kutu">
+        <table>
+            <tr>
+                <td colspan="2">
+                    @foreach(var x in Model) 
+                    { 
+                    <div class="projeadi">@x.Basliklar</div>
+                    <div class="metin">@x.Icerik </div>
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,341 @@
+body {
+    background-image: url('Resimler/arka-plan.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(249, 242, 236,0.9);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    background-color: rgb(179, 89, 0);
+    border-radius: 10px;
+    transform: scale(0.9);
+}
+
+.container .navbar-brand {
+    font-family: Segoe Script;
+    font-size: 45px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(179, 89, 0);
+}
+
+.navbar-brand:hover {
+    transform: scale(0.9);
+    background-color: rgb(179, 89, 0);
+    border-radius: 10px;
+    padding: 4px 4px 1px 3px;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+.card-footer2 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: rgba(249, 242, 236,0.9);
+    color: rgb(179, 89, 0);
+    font-family: Segoe Script;
+    font-weight: 800;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: Segoe Script;
+    color: rgb(179, 89, 0);
+    background-color: rgba(249, 242, 236,0.9);
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px 10px 20px;
+    margin: 60px;
+}
+
+.container .row {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(179, 89, 0);
+    font-weight: 800;
+}
+
+.card button {
+    border-radius: 15px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 12px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(179, 89, 0);
+}
+
+.card {
+    background-color: rgba(249, 242, 236,0.9);
+    margin: 50px 100px 50px 66px;
+    border-radius: 15px;
+    font-family: Segoe Script;
+}
+
+.row img {
+    width: 250px;
+    height: 200px;
+}
+
+
+.malzemeler {
+    background-color: rgba(249, 242, 236,0.8);
+    font-family: Segoe Script;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px 40px 0px 60px;
+    margin: 150px 100px 0px 100px;
+    color: rgb(179, 89, 0);
+}
+
+.malzemeler1 {
+    background-color: rgba(249, 242, 236,0.8);
+    text-align: left;
+    font-family: Segoe Script;
+    padding: 20px 100px 50px 60px;
+    margin: 0px 100px 0px 100px;
+    font-weight: 800;
+    color: black;
+    line-height:2;
+}
+
+.taslak .yapilis {
+    background-color: rgba(249, 242, 236,0.8);
+    font-family: Segoe Script;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px 40px 0px 110px;
+    margin: 0px 100px 0px 100px;
+    color: rgb(179, 89, 0);
+}
+
+.taslak .tarif {
+    background-color: rgba(249, 242, 236,0.8);
+    text-align: left;
+    font-family: Segoe Script;
+    padding: 20px 110px 50px 110px;
+    margin: 0px 100px 70px 100px;
+    font-weight: 600;
+    color: black;
+    list-style: none;
+    line-height: 2;
+}
+
+.foto1 {
+    float: right;
+    width: 700px;
+    height: 360px;
+    padding: 70px 150px 25px 120px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+    .content .giris {
+        width: 400px;
+        padding: 30px;
+        background: black;
+        text-align: center;
+        font-family: Segoe Script;
+        font-size: 15px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px;
+    }
+
+    .content input {
+        display: block;
+        width: 100%;
+        height: 39px;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+        font-family: 'Californian FB';
+    }
+
+    .content .giris2 {
+        margin-top: 85px;
+        margin-bottom: 19px;
+        font-family: Segoe Script;
+        font-size: 18px;
+        border-radius: 50px;
+        background: rgb(179, 89, 0);
+    }
+
+        .content .giris2:hover {
+            background: white;
+            color: rgb(179, 89, 0);
+        }
+
+.giris p {
+    color: white;
+    text-align: left;
+}
+
+.giris a {
+    text-decoration: none;
+    color: white;
+}
+
+    .giris a:hover {
+        color: rgb(179, 89, 0);
+    }
+
+.giris h1 {
+    color: white;
+    font-family: Segoe Script;
+    text-align: center;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+.kayit {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Segoe Script;
+    width: 500px;
+    padding: 30px 30px 30px 20px;
+    border-radius: 10px;
+}
+
+.kaydol {
+    display: block;
+    width: 150%;
+    text-align: center;
+    font-family: 'Californian FB';
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kaydol2 {
+    font-family: Segoe Script;
+    margin-top: 60px;
+    background-color: rgb(179, 89, 0);
+    border-radius: 40px;
+    height: 50px;
+    font-size: 25px;
+    width: 150%;
+}
+
+.kaydol2:hover {
+    background-color: white;
+}
+
+
+.kutu {
+    margin: 150px 100px 50px 100px;
+    padding: 20px 10px 20px 12px;
+}
+
+    .kutu table tr td {
+        border: 1px solid black;
+        background-color: rgba(249, 242, 236,0.9);
+        color: black;
+        font-family: Segoe Script;
+        font-weight: 500;
+    }
+
+.projeadi {
+    padding: 17px 0px 17px 50px;
+    font-size: 20px;
+    background-color: rgba(249, 242, 236,0.9);
+    color: rgb(179, 89, 0);
+    font-weight: 800;
+    font-family: 'Californian FB';
+
+}
+
+.metin {
+    padding: 12px 40px 50px 50px;
+    font-size: 17px;
+    line-height: 3;
+    font-family: 'Californian FB';
+    font-weight: 800;
+}
+
+.icerik {
+    background-color: rgba( 249, 242, 236,0.9);
+    color: rgb(179, 89, 0);
+    margin: 150px 100px 80px 100px;
+    padding: 70px 90px 30px 70px;
+    font-family: Segoe Script;
+    font-weight: 800;
+    line-height: 2;
+}
+
+    .icerik h4 {
+        color: rgb(249, 242, 236);
+        background-color: rgb(179, 89, 0);
+        padding: 3px 3px 3px 3px;
+        font-weight: 300;
+    }
+
+#kiþisel {
+    margin: 10px 450px 5px 0px;
+}
+
+#egitim {
+    margin: 10px 440px 5px 0px;
+}
+
+#yetkinlik {
+    margin: 10px 490px 5px 0px;
+}
+
+#seminer {
+    margin: 10px 250px 5px 0px;
+}
+
+#dil {
+    margin: 10px 450px 5px 0px;
+}
+
+#hobi {
+    margin: 10px 560px 5px 0px;
+}
+
+#foto {
+    margin: 0px 0px 40px 260px;
+    width: 250px;
+    height: 300px;
+}
+
